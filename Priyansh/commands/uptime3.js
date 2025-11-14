@@ -72,8 +72,8 @@ module.exports = {
 │𝙾𝚂: ${os.type()} ${os.arch()}
 │𝙻𝙰𝙽𝙶 𝚅𝙴𝚁: ${process.version}
 │𝙲𝙿𝚄 𝙼𝙾𝙳𝙴𝙻: ${os.cpus()[0].model}
-│𝚂𝚃𝙾𝚁𝙰𝙶𝙴: ${usedMemoryGB.toFixed(2)} GB / ${totalMemoryGB.toFixed(2)} GB
-│𝙲𝙿𝚄 𝚄𝚂𝙰𝙶𝙴: ${cpuUsage.toFixed(1)}%
+│𝚂𝚃𝙾𝚁𝙰𝙶𝙴: ${usedMemoryGB.toFixed(4)} GB / ${totalMemoryGB.toFixed(4)} GB
+│𝙲𝙿𝚄 𝚄𝚂𝙰𝙶𝙴: ${cpuUsage.toFixed(3)}%
 │𝚁𝙰𝙼 𝚄𝚂𝙶𝙴: ${process.memoryUsage().heapUsed / 1024 / 1024} MB;
 ├───────────────⟡
 │ ✅ 𝗢𝗧𝗛𝗘𝗥 𝗜𝗡𝗙𝗢
